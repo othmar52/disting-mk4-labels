@@ -23,7 +23,7 @@ Arduino based eurorack module displaying text on OLED displays
    │◎ RSV         D1 ●│─────> all 3 OLED SCL
    │◎ RSV         D2 ●│─────> upper OLED SDA
    │◎ SD3         D3 ●│─────> center OLED SDA
-   │◎ SD2         D3 ●│─────> lower OLED SDA
+   │◎ SD2         D4 ●│─────> lower OLED SDA
    │◎ SD1        3V3 ◎│
    │◎ CMD        GND ◎│ 
    │◎ SD0         D5 ●│─────> RotaryEncoder OUTA ──> (see below)
@@ -106,3 +106,4 @@ GATE ║◎ ◎║
 -12V ║◎ ◎║ (red stripe)
      ╚═══╝
 ```
+![Arduino for Expert Sleepers - disting mk4](media/disting-mk4-labels-circuit-fritzing.png "Arduino for Expert Sleepers - disting mk4")  
