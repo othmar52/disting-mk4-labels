@@ -1,5 +1,6 @@
 # disting-mk4-labels
 Arduino based eurorack module displaying text on OLED displays
+![Arduino for Expert Sleepers - disting mk4](media/disting-mk4-with-arduino.jpg "Arduino for Expert Sleepers - disting mk4")  
 
 ## Parts
 -  [Expert Sleepers - disting mk4 Eurorack module](https://www.expert-sleepers.co.uk/downloads/manuals/disting_user_manual_4.20.pdf)
