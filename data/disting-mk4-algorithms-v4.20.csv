@@ -1,113 +1,113 @@
 " ",Category,fav,title1,title2,title3,z1,z2,z3,x1,x2,x3,y1,y2,y3,a1,a2,a3,b1,b2,b3
-A1,,,Precision,Adder,,Offset,,,Pitch CV,Input,,Inverting,Input,,CV OUT,,,Inverted,CV OUT,(if Y)
-A2,,,Four,Quadrant,Multiplier,Scale,,,Audio,Input,,Modulating,CV,Input,Audio Out,(X * Y,* scale),Inverted,Output,of A
-A3,,,Full,Wave,Rectifier,Mode,,,input,,,Input,,,Output,abs(X) or,abs(X+Y),Output,abs(Y) or,abs(X-Y)
-A4,,,Minimum,maximum,,Gate,,,input,,,input,,,Output,"min(X,Y)",,Output,"max(X,Y)",
-A5,,,Linear,Exponen.,Converter,Tuning,,,Exponen,tial,Input,Linear,Input,,Exponen,tial,Output,Linear,Output,
-A6,,,Quantizer,,,Scale,Select,,Voltage,Input,,Trigger/,Transpo,se,Quantiz,ed Out,,GateOut,Note,Cange
-A7,,,Comparat-,or,,Hysteresis,,,Input,,,Input,,,if X > Y,then,Gate Out,if X < Y,then,Gate Out
-A8,,,Dual,Wave-,shaper,Wave,Algorithm,,Input,Wave 1,,Input,Wave 2,,Output,Wave 1,,Output,Wave 2,
-B1,,,Sample,& Hold,,Slew,Rate,/ Glide,CV Sample,Input,,CV,Gate,Input,Sampled,CV,Output,Noise,Output,
-B2,,,Slew,Rate,Limiter,Slew,Rate,,Input,,,Input,,,Linear,Slew,,Logarit.,Slew,
-B3,,,Pitch &,Envelope,Tracker,Envelo,pe Rate,,Audio,Input,,Pitch,Modula,tor,1V / Oct,Input,,Envelo,pe Out,
-B4,,,Clockable,Delay/,Echo,Feedbck,,,Audio,Input,,Clock,Input,,Mix /,Mix /,Delay,Delay/,Mix /,Delay
-B5,,,LFO,,,Tune,,,Hz / V,Frequency,,wave-,shape,,saw ->,sine ->,triangle,pulse->,square->,pulse
-B6,,,Clockable,LFO,,integer,multiplier,/divider,Clock,Input,,Wave-,shape,,saw ->,sine ->,triangle,pulse->,square->,pulse
-B7,,,VCO with,linear,FM,Tune,+ / - 0.5,Octaves,V / Oct,Pitch,Input,Linear,FM,Input,Sine,Output,,Sawtooth,Output,
-B8,,,VCO,with wave-,shaping,Tune,+ / - 0.5,Octaves,V / Oct,Pitch,Input,+ / - 5V,waveshp,/ PWM,slectble,Output,wavefrms,slectble,Output,wavefrms
-C1,,,Precision,Adder,fract offst,Offset,,,Input,,,Input,,,Output,X + Y +,Offset,Output,X + Y -,Offset
-C2,,,VoltCntrld,Delay,Line,Feedbck,Bipolar,,Audio,Input,,0 - 8V,Delay,Time,Audio Out,Delay,Only,AudioOut,X + dlay,
-C3,,,Clockable,PingPong,Delay,Feedbck,,,Audio,Input,,Clock,> 1 Volt,,AudioOut,Left,,AudioOut,Right,
-C4,,,Clockable,PingPong,Delay,Input,Pan,,Audio,Input,,Clock,> 1 Volt,,AudioOut,Left,,AudioOut,Right,
-C5,,,Resonator,,,Gain,,,Audio,Input,,1 V / Oct,Input,,AudioOut,,,Envelo,of Audio,Output
-C6,,,Vocoder,,,Decay,Time,,Modulat,or Input,,Source,Carier,Input,AudioOut,,,Envelo,of Audio,Output
-C7,,,Phaser,,,Bipolar,Feedbck,,Audio,Input,,Sweep,Phase,Shift,AudioOut,X +,Phaser,AudioOut,Phaser,only
-C8,,,Bit,Crusher,,Bit Redu,ction,,Audio,Input,,Sample,Rate,,AudioOut,,,Comper,ator Out,
-D1,,,DJ,Filter,,Filter,Sweep,,Audio,Input,Left,Audio,Input,Right,AudioOut,Left,,AudioOut,Right,
-D2,,,Tape,Delay,,Feedbck,,,Audio,Input,,Tape,Speed,,AudioOut,Mix or,Delay,AudioOut,Mix or,Delay
-D3,,,Waveform,Animator,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-D4,,,State,Variable,Filter,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-D5,,,LP / HP,Filter,,Resona,nce,,Audio,Input,,Freqncy,1V / Oct,Input,Low,Pass,AudioOut,High,Pass,AudioOut
-D6,,,LP / BP,Filter,,Resona,nce,,Audio,Input,,Freqncy,1V / Oct,Input,Low,Pass,AudioOut,Band,Pass,AudioOut
-D7,,,BP / HP,Filter,,Resona,nce,,Audio,Input,,Freqncy,1V / Oct,Input,Band,Pass,AudioOut,High,Pass,AudioOut
-D8,,,BP / Notch,Filter,,Resona,nce,,Audio,Input,,Freqncy,1V / Oct,Input,Band,Pass,AudioOut,Notch,AudioOut,
-E1,,,AR,Envelope,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-E2,,,AR,Envelope,& VCA,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-E3,,,Dual AR,Envelope,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-E4,,,Stereo,Compressor,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-E5,,,Sidechain,Compressor,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-E6,,,Mono,Compressor,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-E7,,,Euro to,Buchla,Converter,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-E8,,,Buchla,to Euro,Converter,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-F1,,,Clockable,AD Envlp,w. mute,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-F2,,,Clockable,AD Envlp,w. gate,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-F3,,,Clockable,AD Envlp,w. trigger,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-F4,,,Clockable,AD Envlp,& VCA,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-F5,,,ShiftRgstr,Random,CVs,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-F6,,,ShiftRgstr,Random,QuntzdCVs,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-F7,,,ShiftRgstr,Random,Triggers,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-F8,,,ShiftRgstr,Random,DualTrggers,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-G1,,,ES-1,Emulation,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-G2,,,ES-2,Emulation,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-G3,,,Pitch,Reference,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-G4,,,Frequency,Reference,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-G5,,,Tuner,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-G6,,,Clock,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-G7,,,MIDI/CV,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-G8,,,CV/MIDI,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-H1,,,Crossfade,Pan,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-H2,,,Dual,Sample,& Hold,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-H3,,,Dual,Quantizer,(Z scale),TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-H4,,,Dual,Quantizer,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-H5,,,Dual,Euclidean,Patterns,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-H6,,,DualDelayd,Pulse,Generator,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-H7,,,Noise,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-H8,,,Quantizer,2,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-I1,,,Audio,Playback,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-I2,,,Clocked,Audio,Playback,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-I3,,,Audio,Playback,w. V/Oct,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-I4,,,Audio,Playback,w.Z Speed,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-I5,,,Audio,Playback,w.Reverse,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-I6,,,Audio,Playback,w. Scrub,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-I7,,,DualAudio,Playback,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-I8,,,DualAudio,Playback,w.Z Speed,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-J1,,,MIDI File,Playback,(Clocked),TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-J2,,,Multisample,2 Audio,Playback,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-J3,,,MIDI File,Playback,freeRunning,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-J4,,,Audio,Playback,w. End CV,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-J5,,,Audio,Recorder,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-J6,,,Multisample,Audio,Playback,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-J7,,,Mono,Audio,Recorder,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-J8,,,Audio,Playback,w.Crossfade,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-K1,,,Wavetable,VCO,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-K2,,,Clockable,Wave-,table LFO,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-K3,,,Wavetable,Wave-,shaper,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-K4,,,Clockable,Wavetable,Envelope,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-K5,,,Prgrmable,Quantizer,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-K6,,,Clockable,SD Delay,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-K7,,,Stereo,Clockable,SD Delay,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-K8,,,Stereo,Clockable,SD Delay,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-L1,,,Stereo,Reverb,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-L2,,,Mono to,Stereo,Reverb,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-L3,,,Dual,Reverb,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-L4,,,Dual,Vowel,Filter,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-L5,,,Stereo,Chorus,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-L6,,,Mono,Chorus,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-L7,,,Mixer,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-L8,,,Gate,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-M1,,,Delayed,LFO,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-M2,,,Scaled,LFO,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-M3,,,Logic,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-M4,,,Half-wave,Rectifier,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-M5,,,Stereo,Filter,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-M6,,,Stereo,Tape,Delay,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-M7,,,Granular,Pitch,Shifter,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-M8,,,Chaos,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-N1,,,Switch,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-N2,,,Rotary,,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-N5,,,Pulsar,VCO,,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-N8,,,Clockable,SD,PingPong,TODO,,,TODO,,,TODO,,,TODO,,,TODO,,
-X1,,,Fake,1 Line,per Algo,Line 1,,,Line 1,,,Line 1,,,Line 1,,,Line 1,,
-X2,,,Fake,2 Lines,per Algo,Line 1,Line 2,,Line 1,Line 2,,Line 1,Line 2,,Line 1,Line 2,,Line 1,Line 2,
-X3,,,Fake,3 Lines,per Algo,Line 1,Line 2,Line 3,Line 1,Line 2,Line 3,Line 1,Line 2,Line 3,Line 1,Line 2,Line 3,Line 1,Line 2,Line 3
-X4,,,Display,Test,All Lines,EELine 1H,EELine 2H,EELing 3H,EELine 1H,EELine 2H,EELing 3H,EELine 1H,EELine 2H,EELing 3H,EELine 1H,EELine 2H,EELing 3H,EELine 1H,EELine 2H,EELing 3H
+"A1",,,Precision,Adder,,Offset,,,Pitch CV,Input,,Inverting,Input,,CV OUT,,,Inverted,CV OUT,(if Y)
+"A2",,,Four,Quadrant,Multiplier,Scale,,,Audio,Input,,Modulating,CV,Input,Audio Out,(X * Y,* scale),Inverted,Output,of A
+"A3",,,Full,Wave,Rectifier,Mode,,,input,,,Input,,,Output,abs(X) or,abs(X+Y),Output,abs(Y) or,abs(X-Y)
+"A4",,,Minimum,maximum,,Gate,,,input,,,input,,,Output,"min(X,Y)",,Output,"max(X,Y)",
+"A5",,,Linear,Exponen.,Converter,Tuning,,,Exponen,tial,Input,Linear,Input,,Exponen,tial,Output,Linear,Output,
+"A6",,,Quantizer,,,Scale,Select,,Voltage,Input,,Trigger/,Transpo,se,Quantiz,ed Out,,GateOut,Note,Cange
+"A7",,,Comparat-,or,,Hysteresis,,,Input,,,Input,,,if X > Y,then,Gate Out,if X < Y,then,Gate Out
+"A8",,,Dual,Wave-,shaper,Wave,Algorithm,,Input,Wave 1,,Input,Wave 2,,Output,Wave 1,,Output,Wave 2,
+"B1",,,Sample,& Hold,,Slew,Rate,/ Glide,CV Sample,Input,,CV,Gate,Input,Sampled,CV,Output,Noise,Output,
+"B2",,,Slew,Rate,Limiter,Slew,Rate,,Input,,,Input,,,Linear,Slew,,Logarit.,Slew,
+"B3",,,Pitch &,Envelope,Tracker,Envelo,pe Rate,,Audio,Input,,Pitch,Modula,tor,1 V / Oct,Input,,Envelo,pe Out,
+"B4",,,Clockable,Delay/,Echo,Feedback,,,Audio,Input,,Clock,Input,,Mix /,Mix /,Delay,Delay/,Mix /,Delay
+"B5",,,LFO,,,Tune,,,Hz / V,Frequency,,wave-,shape,,saw ->,sine ->,triangle,pulse->,square->,pulse
+"B6",,,Clockable,LFO,,integer,multiplier,/divider,Clock,Input,,Wave-,shape,,saw ->,sine ->,triangle,pulse->,square->,pulse
+"B7",,,VCO with,linear,FM,Tune,+ / - 0.5,Octaves,1 V / Oct,Pitch,Input,Linear,FM,Input,Sine,Output,,Sawtooth,Output,
+"B8",,,VCO,with wave-,shaping,Tune,+ / - 0.5,Octaves,1 V / Oct,Pitch,Input,+ / - 5V,waveshpe,/ PWM,selectable,Output,wavefrms,selectable,Output,wavefrms
+"C1",,,Precision,Adder,fract offst,Offset,,,Input,,,Input,,,Output,X + Y +,Offset,Output,X + Y -,Offset
+"C2",,,VoltCntrld,Delay,Line,Feedback,Bipolar,,Audio,Input,,0 - 8V,Delay,Time,Audio Out,Delay,Only,Audio Out,X+Delay,
+"C3",,,Clockable,PingPong,Delay,Feedback,,,Audio,Input,,Clock,> 1 Volt,,Audio Out,Left,,Audio Out,Right,
+"C4",,,Clockable,PingPong,Delay,Input,Pan,,Audio,Input,,Clock,> 1 Volt,,Audio Out,Left,,Audio Out,Right,
+"C5",,,Resonator,,,Gain,,,Audio,Input,,1 V / Oct,Input,,Audio Out,,,Envelope,of Audio,Output
+"C6",,,Vocoder,,,Decay,Time,,Modulat,or Input,,Source,Carier,Input,Audio Out,,,Envelope,of Audio,Output
+"C7",,,Phaser,,,Bipolar,Feedback,,Audio,Input,,Sweep,Phase,Shift,Audio Out,X +,Phaser,Audio Out,Phaser,only
+"C8",,,Bit,Crusher,,Bit Redu,ction,,Audio,Input,,Sample,Rate,,Audio Out,,,Comper,ator Out,
+"D1",,,DJ,Filter,,Filter,Sweep,,Audio,Input,Left,Audio,Input,Right,Audio Out,Left,,Audio Out,Right,
+"D2",,,Tape,Delay,,Feedback,,,Audio,Input,,Tape,Speed,,Audio Out,Mix or,Delay,Audio Out,Mix or,Delay
+"D3",,,Waveform,Animator,,Separation,,,Audio,Input,,Center,Treshold,,Animated,Out,,Square,Waves,Out
+"D4",,,State,Variable,Filter,Blend,Filter,Type,Audio,Input,,Frequency,1 V / Oct,Input,LP<BP>HP,Filtered,Output,HP<BP>LP,Filtered,Output
+"D5",,,LP / HP,Filter,,Resona,nce,,Audio,Input,,Frequency,1 V / Oct,Input,Low Pass,Audio Out,,High Pass,Audio Out,
+"D6",,,LP / BP,Filter,,Resona,nce,,Audio,Input,,Frequency,1 V / Oct,Input,Low Pass,Audio Out,,BandPass,Audio Out,
+"D7",,,BP / HP,Filter,,Resona,nce,,Audio,Input,,Frequency,1 V / Oct,Input,BandPass,Audio Out,,High Pass,Audio Out,
+"D8",,,BP / Notch,Filter,,Resona,nce,,Audio,Input,,Frequency,1 V / Oct,Input,BandPass,Audio Out,,Notch,Audio Out,
+"E1",,,AR,Envelope,,Envelope,Times,,Trigger,Input,> 1 Volt,Trigger,Input,> 1 Volt,Envelope,Out,,Envelope,Out,
+"E2",,,AR,Envelope,& VCA,Envelope,Times,,Trigger,Input,> 1 Volt,VCA,Input,,Envelope,Out,,VCA,Out,
+"E3",,,Dual AR,Envelope,,Envelope,Times,,Trigger,Input A,> 1 Volt,Trigger,Input B,> 1 Volt,Envelope,Out,,Envelope,Out,
+"E4",,,Stereo,Compressor,,Compre,ssion,Ratio,Audio,Input,Left,Audio,Input,Right,Audio Out,Left,,Audio Out,Right,
+"E5",,,Sidechain,Compressor,,Sidechain,Input,,Audio,Input,Left,Audio,Input,Right,Audio Out,Left,,Audio Out,Right,
+"E6",,,Mono,Compressor,,Compre,ssion,Ratio,Audio,Input,,Sidechain,Input,,Audio Out,,,Gain Re-,duction,Output
+"E7",,,Euro to,Buchla,Converter,Tune,+ / - 0.5,Octaves,1 V / Oct,Input,,Gate,Input,,1.2V/Oct,Output,,Gate /,Trigger,Output
+"E8",,,Buchla,to Euro,Converter,Tune,+ / - 0.5,Octaves,1.2V/Oct,Input,,Gate /,Trigger,Input,1 V / Oct,Output,,Trigger,Output,
+"F1",,,Clockable,AD Envlp,w. mute,Envelope,Shape,,> 1 Volt,Clock,Input,> 1 Volt,Mute,Input,Envelope,Out,,Envelope,Out,
+"F2",,,Clockable,AD Envlp,w. gate,Envelope,Shape,,> 1 Volt,Clock,Input,> 1 Volt,Gate,Input,Envelope,Out,,Envelope,Out,
+"F3",,,Clockable,AD Envlp,w. trigger,Envelope,Shape,,> 1 Volt,Clock,Input,> 1 Volt,Trigger,Input,Envelope,Out,,Envelope,Out,
+"F4",,,Clockable,AD Envlp,& VCA,Envelope,Shape,,> 1 Volt,Clock,Input,VCA,Audio,Input,Envelope,Out,,VCA,Audio,Output
+"F5",,,ShiftRgistr,Random,CVs,Random-,ization,,> 1 Volt,Clock,Input,Flip,Modifier,,+ Volts,Unipolar,Output,+/- Volts,Bipolar,Output
+"F6",,,ShiftRgistr,Random,QuntzdCVs,Random-,ization,,> 1 Volt,Clock,Input,Flip,Modifier,,+ Volts,Unipolar,Output,+/- Volts,Bipolar,Output
+"F7",,,ShiftRgistr,Random,Triggers,Random-,ization,,> 1 Volt,Clock,Input,Flip,Modifier,,Trigger,Output,,Inverse,Trigger,Output
+"F8",,,ShiftRgistr,Random,DualTrggers,Random-,ization,,> 1 Volt,Clock,Input,Flip,Modifier,,+ Volts,Unipolar,Output,+/- Volts,Bipolar,Output
+"G1",,,ES-1,Emulation,,Trim,,,Input1,from Au,dio Iface,Input2,from Au,dio Iface,Output1,to Modu-,lar CV,Output2,to Modu-,lar CV
+"G2",,,ES-2,Emulation,,Trim,,,Input1,from Mo,dular CV,Input2,from Mo,dular CV,Output1,to Audio,Interfce,Output2,to Audio,Interfce
+"G3",,,Pitch,Reference,,Output,Amplitde,,,,,,,,Sine,Wave,Output,Square,Wave,Output
+"G4",,,Frequency,Reference,,Output,Amplitde,,,,,,,,Sine,Wave,Output,Square,Wave,Output
+"G5",,,Tuner,,,Sets,Amplitde,of B,Audio,Input,,,,,Audio,Thru,Output,Sine,Wave,Output
+"G6",,,Clock,,,,,,Clock,Input," ",Run /,Stop,Input,Clock,Output,,Clock,Output,
+"G7",,,MIDI,to CV,Convers.,,,,,,,,,,Pitch,CV,Output,Gate,Output,
+"G8",,,CV to,MIDI,Convers.,Modwheel,or Velo.,CV input,Pitch,CV,Input,Gate,Input,,Pass,Through,X,Pass,Through,Y
+"H1",,,Crossfade,Pan,,Crossfade,Pan,,Input,,,Input,,,Mix of,X & Y,,inv. Mix,of X & Y,or LFO
+"H2",,,Dual,Sample,& Hold,Hold,Gate,,Sample,Input,for A,Sampe,Input,for B,Output,A,,Output,B,
+"H3",,,Dual,Quantizer,(Z scale),Scale,,,Pitch,CV,Input,Pitch,CV,Input,Quantized,CV Out,A,Quantized,CV Out,B
+"H4",,,Dual,Quantizer,,Trigger,,,Pitch,CV,Input,Pitch,CV,Input,Quantized,CV Out,A,Quantized,CV Out,B
+"H5",,,Dual,Euclidean,Patterns,Pulse,Pattern,2,Clock,Input,,Reset,Input,,Pulse,Output,1,Pulse,Output,2
+"H6",,,DualDelayd,Pulse,Generator,Function,,,Trigger,for A,,Trigger,for B,,Pulse,Generator,,Pulse,Generator,
+"H7",,,Noise,,,TODO,,,TODO,,,TODO,,,Noise,Output,,Noise,Output,
+"H8",,,Quantizer,2,,Interval,between,A & B,Pitch,CV,Input,Trggr or,PitchCV,Input,Quantized,CV Out,,Quantized,CV Out,
+"I1",,,Audio,Playback,,Sample,Select,,CV IN,Retrigger,,CV IN,Start,Position,Audio,Output,Left,Audio,Output,Right
+"I2",,,Clocked,Audio,Playback,Sample,Select,,CV IN,Retrigger,,Clock,Input,,Audio,Output,Left,Audio,Output,Right
+"I3",,,Audio,Playback,w. V/Oct,Sample,Select,,CV IN,Retrigger,,1 V / Oct,CV Pitch,Input,Audio,Output,Left,Audio,Output,Right
+"I4",,,Audio,Playback,w.Z Speed,Playback,Speed,,CV IN,Retrigger,,CV IN,Start,Position,Audio,Output,Left,Audio,Output,Right
+"I5",,,Audio,Playback,w.Reverse,Hysteresis,,,CV IN,Retrigger,,Input,,,Audio,Output,Left,Audio,Output,Right
+"I6",,,Audio,Playback,w. Scrub,Sample,Select,,,,,Playback,Position,,Audio,Output,Left,Audio,Output,Right
+"I7",,,DualAudio,Playback,,Sample,Select,,Trigger,for A,,Trigger,for B,,Audio,Output,Left,Audio,Output,Right
+"I8",,,DualAudio,Playback,w.Z Speed,Playback,Speed,,Trigger,for A,,Trigger,for B,,Audio,Output,Left,Audio,Output,Right
+"J1",,,MIDI File,Playback,(Clocked),MIDI File,Select,,Clock,Input,,Retrigger,CV Output,,Pitch,CV Output,,Gate,Output,
+"J2",,,Multisample,2 Audio,Playback,Tune,+ / - 0.5,Octaves,CV IN,Retrigger,,1 V / Oct,Pitch Input,,Audio,Output,Left,Audio,Output,Right
+"J3",,,MIDI File,Playback,freeRunning,Playback,Speed,,1 V / Oct,CV Speed,,Retrigger,CV Input,,Pitch,CV Output,,Gate,Output,
+"J4",,,Audio,Playback,w. End CV,EndPosition,or Retrggr,CV,Retrigger,or Endpo-,sition CV,Start,Position,CV Input,Audio,Output,Left,Audio,Output,Right
+"J5",,,Audio,Recorder,,RecContrl,Z>1V: Rec,Z<0.5:Stop,Audio,Input,Left,Audio,Input,Right,Audio,Output,Left,Audio,Output,Right
+"J6",,,Multisample,Audio,Playback,Tune,+ / - 0.5,Octaves,Retrigger,CV Input,,1 V / Oct,Pitch Input,,Audio,Output,Left,Audio,Output,Right
+"J7",,,Mono,Audio,Recorder,RecContrl,Z>1V: Rec,Z<0.5:Stop,Audio,Input,Mono,,,,Audio,Output,Mono,,,
+"J8",,,Audio,Playback,w.Crossfade,Sample,Select,,Gate /,Clock CV,,1 V / Oct,Pitch Input,,Audio,Output,Left,Audio,Output,Right
+"K1",,,Wavetable,VCO,,Tune,+ / - 0.5,Octaves,1 V / Oct,Pitch Input,,Wavetable,Lookup,Point,Wavetable,VCO,Output,Variable,P3 Mode,Output
+"K2",,,Clockable,Wave-,table LFO,integer,multiplier,/divider,Clock,Input,,Wavetable,Input,,Wavetable,Output,,Wavetable,Output,
+"K3",,,Wavetable,Wave-,shaper,Gain,,,Signal,Input,,Wavetable,Input,,Wavetable,Output,,complmtry,Wavetable,Output
+"K4",,,Clockable,Wavetable,Envelope,Trigger,,,Clock,Input,,Wavetable,Input,,Wavetable,Output,,Wavetable,Output,
+"K5",,,Prgrmable,Quantizer,,Slew,,,Input,,,Pitch or,Trigger,,Quantized,(X+Y),,Trigger,on Note,Change
+"K6",,,Clockable,SD Delay,,Feedback,,,Signal,Input,,Clock,Input,,Output,according,to Mode,Output,according,to Mode
+"K7",,,Stereo,Clockable,SD Delay,Feedback,,,Audio,Input,Left,Audio,Input,Right,Audio,Output,Left,Audio,Output,Right
+"K8",,,Stereo,Clockable,SD Delay,Clock,Input,,Audio,Input,Left,Audio,Input,Right,Audio,Output,Left,Audio,Output,Right
+"L1",,,Stereo,Reverb,,Wet / Dry,or (press),freeze,Audio,Input,Left,Audio,Input,Right,Audio,Output,Left,Audio,Output,Right
+"L2",,,Mono to,Stereo,Reverb,Wet / Dry,or (press),freeze,Audio,Input,Mono,Feedback,CV,,Audio,Output,Left,Audio,Output,Right
+"L3",,,Dual,Reverb,,Wet / Dry,or (press),freeze,Audio,Input,,Audio,Input,,Output,X plus,Reverb,Output,Y plus,Reverb
+"L4",,,Dual,Vowel,Filter,Vowel,Selection,,Audio,Input,,Audio,Input,,Output,Filtered,X,Output,Filtered,Y
+"L5",,,Stereo,Chorus,,Wet / Dry,,,Audio,Input,,LFO,Rate,,Audio,Output,Left,Audio,Output,Right
+"L6",,,Mono,Chorus,,Wet / Dry,,,Audio,Input,,LFO,Rate,,Blended,Audio,Output,Wet,Audio,Output
+"L7",,,2 channel,mono2streo,Mixer,Pan for,Input X,,Input,,,Input,,,Audio,Output,Left,Audio,Output,Right
+"L8",,,Gate,,,Treshold,,,Input,Left,,Input,Right,,Output,Left,,Output,Right,
+"M1",,,Delayed,LFO,,LFO,Speed,,Trigger,Input,,Ramp,Time,,Output,Wave,,Output,Wave,
+"M2",,,Scaled,LFO,,LFO,Speed,,min/max,or offset,/scale,min/max,or offset,/scale,Output,Wave,,Output,Wave,
+"M3",,,Logic,,,Logical,Operation,for A,Input 1,,,Input 2,,,Logic,Output1,,Logic,Output2,
+"M4",,,Half-wave,Rectifier,,Treshold,,,Input 1,,,Input 2,,,Output1,,,Output2,,
+"M5",,,Stereo,Filter,LP/HP/BP,Filter,Frequency,,Audio,Input,Left,Audio,Input,Right,Audio,Output,Left,Audio,Output,Right
+"M6",,,Stereo,Tape,Delay,TapeSpeed,or,Feedback,Audio,Input,Left,Audio,Input,Right,Audio,Output,Left,Audio,Output,Right
+"M7",,,Granular,Pitch,Shifter,Mix,or (press),Freeze,Audio,Input,,1 V / Oct,Pitch,Input,Mix,Output,,Pitch,Shifted,Output
+"M8",,,Chaos,,,Speed,,,influence,the,chaos,influence,the,chaos,Chaotic,Output,,Chaotic,Output,
+"N1",,,Switch,,,Cntrl CV,or,Trigger,Input 1,,,Input 2,,,Output1,,,Output2,,
+"N2",,,Rotary,,,Speed,,,Audio,Input,,Mix,,,Audio,Output,Left,Audio,Output,Right
+"N5",,,Pulsar,VCO,,Tune,or,Masking,1 V / Oct,Pitch In,fundamntl,1 V / Oct,Pitch In,formant,Pulsar,Output1,,Pulsar,Output2,
+"N8",,,Clockable,SD,PingPong,Feedback,,,Signal,Input,,Clock,Input,,Audio,Output,Left,Audio,Output,Right
+"X1",,,Fake,1 Line,per Algo,Line 1,,,Line 1,,,Line 1,,,Line 1,,,Line 1,,
+"X2",,,Fake,2 Lines,per Algo,Line 1,Line 2,,Line 1,Line 2,,Line 1,Line 2,,Line 1,Line 2,,Line 1,Line 2,
+"X3",,,Fake,3 Lines,per Algo,Line 1,Line 2,Line 3,Line 1,Line 2,Line 3,Line 1,Line 2,Line 3,Line 1,Line 2,Line 3,Line 1,Line 2,Line 3
+"X4",,,Display,Test,All Lines,EELine 1H,EELine 2H,EELing 3H,EELine 1H,EELine 2H,EELing 3H,EELine 1H,EELine 2H,EELing 3H,EELine 1H,EELine 2H,EELing 3H,EELine 1H,EELine 2H,EELing 3H
