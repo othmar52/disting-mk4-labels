@@ -23,18 +23,20 @@ void setupOledDisplays() {
 
 // upper half of screen with algorithm letter
 void drawJackLabelUpper(U8G2_SSD1306_128X64_NONAME_1_SW_I2C scr, uint8_t screenIndex, char* patch, char* line1, char* line2, char* line3) {
-  int offset = lineHeigth+2;
-  scr.drawStr(0,offset,patch);
+  int offset = 18;
+  scr.setFont(u8g2_font_timB18_tf);
+  scr.drawStr(20,offset,patch);
+  scr.setFont(u8g2_font_crox2h_tf);
+  offset = 24;
   scr.drawStr(0,offset+lineHeigth,line1);
   scr.drawStr(0,offset+lineHeigth*2,line2);
   scr.drawStr(0,offset+lineHeigth*3,line3);
   drawDivider(scr);
-  
 }
 
 // horizontal line on screen 1
 void drawDivider(U8G2_SSD1306_128X64_NONAME_1_SW_I2C scr) {
-  scr.drawBox (0, 70, 64, 1); // x,y,w,h
+  scr.drawBox (0, 75, 64, 1); // x,y,w,h
 }
 
 // upper half of screen without algorithm letter

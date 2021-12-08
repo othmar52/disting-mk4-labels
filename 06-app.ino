@@ -16,6 +16,16 @@ void loopPatchSelection() {
     titleL2[MAX_CHARS_PER_LINE],
     titleL3[MAX_CHARS_PER_LINE];
 
+  if (welcome == true) {
+    if (millis() > 6000) {
+      welcome = false;
+      currentPatchRequest = 0;
+      lastRenderedPatchTitle = 0;
+      lastRenderedPatch = 0;
+    }
+    return;
+  }
+  
   if (currentPatchRequest != currentRenderedPatchTitle) {
     strcpy(patch, getCharsForPatch(currentPatchRequest, 0, 0));
     strcpy(titleL1, getCharsForPatch(currentPatchRequest, 1, 0));
@@ -24,6 +34,7 @@ void loopPatchSelection() {
     drawPatchName(scr1, 1, patch, titleL1, titleL2, titleL3);
     currentRenderedPatchTitle = currentPatchRequest;
     lastRenderedPatchTitle = millis();
+    currentRenderedPatch = -1;
     return;
   }
 

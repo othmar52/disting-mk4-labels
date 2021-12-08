@@ -31,6 +31,8 @@ int tolerance = 3;
 String patchLetter = "";
 
 
+bool welcome = true;
+
 ////////////////////////////////////////////////
 // rotary encoder
 // without interrupts because it seems to be not compatible with multiple oled stuff
@@ -56,9 +58,13 @@ unsigned long lastEncoderChange = 0;
 void setup(void) {
   setupEncoder();
   setupOledDisplays();
+  
   setupMidiStuff();
-
   pinMode(D7, INPUT_PULLUP);
+  
+  drawScreen(scr1, 1, "4.20", "Disting", "MK4", "", "Arduino", "Labels", "Extension");
+  //drawScreen(scr2, 2, "Expert", "Sleepers", "", "disting", "mk4", "");
+  //drawScreen(scr3, 3, "firmware", "4.20", "", "", "", "");
 }
 
 byte stateButtuon = LOW;
