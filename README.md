@@ -1,6 +1,11 @@
 # disting-mk4-labels
-Arduino based eurorack module displaying text on OLED displays
-![Arduino for Expert Sleepers - disting mk4](media/disting-mk4-with-arduino.jpg "Arduino for Expert Sleepers - disting mk4")  
+Arduino based eurorack module displaying text on OLED displays  
+
+
+[<img src="media/disting-mk4-with-arduino.jpg" height="150" />](https://raw.githubusercontent.com/othmar52/disting-mk4-labels/main/media/disting-mk4-with-arduino.jpg?raw=true)
+[<img src="media/disting-mk4-labels-arduino-01.jpg" height="150" />](https://raw.githubusercontent.com/othmar52/disting-mk4-labels/main/media/disting-mk4-labels-arduino-01.jpg?raw=true)
+[<img src="media/disting-mk4-labels-arduino-02.jpg" height="150" />](https://raw.githubusercontent.com/othmar52/disting-mk4-labels/main/media/disting-mk4-labels-arduino-02.jpg?raw=true)
+[<img src="media/disting-mk4-labels-arduino-03.jpg" height="150" />](https://raw.githubusercontent.com/othmar52/disting-mk4-labels/main/media/disting-mk4-labels-arduino-03.jpg?raw=true)
 
 ## Parts
 -  [Expert Sleepers - disting mk4 Eurorack module](https://www.expert-sleepers.co.uk/downloads/manuals/disting_user_manual_4.20.pdf)
@@ -108,3 +113,5 @@ GATE ║◎ ◎║
      ╚═══╝
 ```
 ![Arduino for Expert Sleepers - disting mk4](media/disting-mk4-labels-circuit-fritzing.png "Arduino for Expert Sleepers - disting mk4")  
+
+see my other [eurorack DIY projects](https://github.com/othmar52/eurorack)
