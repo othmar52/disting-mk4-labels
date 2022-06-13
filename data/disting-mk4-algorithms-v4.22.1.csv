@@ -105,7 +105,11 @@
 "M8",,,Chaos,,,Speed,,,influence,the,chaos,influence,the,chaos,Chaotic,Output,,Chaotic,Output,
 "N1",,,Switch,,,Cntrl CV,or,Trigger,Input 1,,,Input 2,,,Output1,,,Output2,,
 "N2",,,Rotary,,,Speed,,,Audio,Input,,Mix,,,Audio,Output,Left,Audio,Output,Right
+"N3",,,Attenuve-,rter/Offset,,,,,Input 1,,,Input 2,,,X * scale,+ offset,,Y * scale,+ offset,
+"N4",,,Low pass,Gate,,Frequency,/Strike,,Audio,Input,Left,Audio,Input,Right,Audio,Output,Left,Audio,Output,Right
 "N5",,,Pulsar,VCO,,Tune,or,Masking,1 V / Oct,Pitch In,fundamntl,1 V / Oct,Pitch In,formant,Pulsar,Output1,,Pulsar,Output2,
+"N6",,,Phase,Shifter,,Wet/Dry,,,Input,Signal,,Phase,Shift,,Audio,Output1,,Audio,Output2,
+"N7",,,Frequency,Shifter,,Frequency,Shift,,Input,Signal,,Frequency,Shift,,Output1,,,Output2,,
 "N8",,,Clockable,SD,PingPong,Feedback,,,Signal,Input,,Clock,Input,,Audio,Output,Left,Audio,Output,Right
 "X1",,,Fake,1 Line,per Algo,Line 1,,,Line 1,,,Line 1,,,Line 1,,,Line 1,,
 "X2",,,Fake,2 Lines,per Algo,Line 1,Line 2,,Line 1,Line 2,,Line 1,Line 2,,Line 1,Line 2,,Line 1,Line 2,

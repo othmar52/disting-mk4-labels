@@ -5,7 +5,7 @@
  * for an arduino sketch.
  */
 
-$filepath = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'disting-mk4-algorithms-v4.20.csv';
+$filepath = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'disting-mk4-algorithms-v4.22.1.csv';
 
 function fillChunk($array, $parts) {
     $t = 0;

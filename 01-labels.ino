@@ -1,4 +1,3 @@
-
 // see http://distingquickguide.rustle.works/
 // see http://www.vo1t.com/Euro/Illustrated/ESdistingMk4V4.9.pdf
 // see https://www.expert-sleepers.co.uk/downloads/manuals/disting_user_manual_4.20.pdf
@@ -853,6 +852,22 @@ const char *allWords[] = {
     /*   A   */ "Audio", "Output", "Left",
     /*   B   */ "Audio", "Output", "Right",
 
+    /* patch */ "N3", "", "",
+    /* title */ "Attenuve-", "rter/Offset", "",
+    /*   Z   */ "", "", "",
+    /*   X   */ "Input 1", "", "",
+    /*   Y   */ "Input 2", "", "",
+    /*   A   */ "X * scale", "+ offset", "",
+    /*   B   */ "Y * scale", "+ offset", "",
+
+    /* patch */ "N4", "", "",
+    /* title */ "Low pass", "Gate", "",
+    /*   Z   */ "Frequency", "/Strike", "",
+    /*   X   */ "Audio", "Input", "Left",
+    /*   Y   */ "Audio", "Input", "Right",
+    /*   A   */ "Audio", "Output", "Left",
+    /*   B   */ "Audio", "Output", "Right",
+
     /* patch */ "N5", "", "",
     /* title */ "Pulsar", "VCO", "",
     /*   Z   */ "Tune", "or", "Masking",
@@ -861,6 +876,22 @@ const char *allWords[] = {
     /*   A   */ "Pulsar", "Output1", "",
     /*   B   */ "Pulsar", "Output2", "",
 
+    /* patch */ "N6", "", "",
+    /* title */ "Phase", "Shifter", "",
+    /*   Z   */ "Wet/Dry", "", "",
+    /*   X   */ "Input", "Signal", "",
+    /*   Y   */ "Phase", "Shift", "",
+    /*   A   */ "Audio", "Output1", "",
+    /*   B   */ "Audio", "Output2", "",
+
+    /* patch */ "N7", "", "",
+    /* title */ "Frequency", "Shifter", "",
+    /*   Z   */ "Frequency", "Shift", "",
+    /*   X   */ "Input", "Signal", "",
+    /*   Y   */ "Frequency", "Shift", "",
+    /*   A   */ "Output1", "", "",
+    /*   B   */ "Output2", "", "",
+
     /* patch */ "N8", "", "",
     /* title */ "Clockable", "SD", "PingPong",
     /*   Z   */ "Feedback", "", "",
@@ -868,7 +899,6 @@ const char *allWords[] = {
     /*   Y   */ "Clock", "Input", "",
     /*   A   */ "Audio", "Output", "Left",
     /*   B   */ "Audio", "Output", "Right"
-
 };
 
 int numPatches = 0;
